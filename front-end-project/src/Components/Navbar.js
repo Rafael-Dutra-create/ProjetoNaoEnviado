@@ -1,4 +1,5 @@
 import '../Styles/Navbar.css'
+import { Link } from "react-router-dom"
 
 function Navbar() {
     
@@ -7,10 +8,10 @@ function Navbar() {
         <header className='menu'>
             <h3>Logo</h3>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Arquivo</a>
-                <a href="#">Sobre</a>
-                <a href="#">Termos</a>                    
+                <Link to="/">Home</Link>
+                <Link to="/Arquivo">Arquivo</Link>
+                <Link to="/Sobre">Sobre</Link>
+                <Link to="/Termos">Termos</Link>                    
             </nav>
             <button className='nav-btn'>
                 ENVIAR
