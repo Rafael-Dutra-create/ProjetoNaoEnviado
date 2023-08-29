@@ -1,8 +1,12 @@
+import Letras from '../img/MsgNEnviada.gif'
+import '../Styles/Home.css'
+
 function Home(){
     return(
         <div>
-            <h1>Home</h1>
+            <img alt="Mensagem Não Enviada" src={Letras} decoding="async" className='Letras'/>
         </div>
+        
     )
 }
 

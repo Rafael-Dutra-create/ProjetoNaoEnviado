@@ -3,6 +3,16 @@
     font-weight: bold;
 }
 
+@media (max-width: 900px) {
+    .nav-menu{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }    
+}
+
+
 :root{
     --mainColor: #fff;
     --secondColor: rgb(118, 118, 190);
@@ -31,7 +41,7 @@ nav a:hover{
 }
 
 .nav-btn{
-    padding: 13px 20px;
+    padding: 18px 25px;
     cursor: pointer;
     background: var(--textColor);
     border: none;
@@ -40,6 +50,27 @@ nav a:hover{
     outline: none;
     color: #fff;
 }
+.nav-btn .Enviar{
+    text-decoration: none;
+    color: #fff;
+}
 .nav-btn:hover{
     background: var(--secondColor);
 }
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+@media (max-width: 900px) {
+    .mobile{
+        display: inline;
+    }
+}
+
