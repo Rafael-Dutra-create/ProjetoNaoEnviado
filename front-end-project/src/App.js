@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import React, { useState } from 'react'
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
-import Arquivo from './Pages/Arquivo';
+import Arquivo from './Pages/Apoie';
 import Sobre from './Pages/Sobre';
 import Termos from './Pages/Termos';
 import Enviar from './Pages/Enviar';
@@ -26,7 +26,7 @@ function App() {
             
       <Routes>
         <Route exact path='/' element={<Home/>}/>
-        <Route path='/Arquivo' element={<Arquivo/>}/>
+        <Route path='/Apoie' element={<Arquivo/>}/>
         <Route path='/Sobre' element={<Sobre/>}/>
         <Route path='/Termos' element={<Termos/>}/>
         <Route path='/Enviar' element={<Enviar/>}/>

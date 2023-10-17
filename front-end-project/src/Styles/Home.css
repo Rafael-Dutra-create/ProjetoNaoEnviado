@@ -5,8 +5,7 @@
 
 div{
     text-align: center;
-    align-items: center;
-    width: 97vw;
+    align-items: center;   
     
 }
 
@@ -15,7 +14,7 @@ div{
     box-sizing: border-box; 
     padding: 0px; 
     border: none;
-    width: 30%; 
-    height: 30%; 
+    width: 300px; 
+    height: 200px; 
     
 }

@@ -1,7 +1,7 @@
 function Arquivo(){
     return(
         <div>
-            <h1>Arquivo</h1>
+            <h1>Apoie</h1>
         </div>
     )
 }

@@ -13,14 +13,16 @@ function Navbar({ setMenuIsVisible }) {
             <img src={Logo} alt='Logo' title='Post It'/>
             
             <nav className='nav-menu'> 
-                <Link to="/">Home</Link>
-                <Link to="/Arquivo">Arquivo</Link>
-                <Link to="/Sobre">Sobre</Link>
-                <Link to="/Termos">Termos</Link>                    
+                <Link to="/">HOME</Link>
+                <Link to="/Apoie">APOIE</Link>
+                <Link to="/Sobre">SOBRE</Link>
+                <Link to="/Termos">TERMOS</Link>                    
             </nav>
-            <button className='nav-btn'>
-                <Link to='/Enviar' className='Enviar'>Enviar</Link>
-            </button>
+            <Link to='/Enviar' className='Enviar'>
+                <button className='nav-btn'>
+                    ENVIAR
+                </button>
+            </Link>
             <RiMenu3Fill onClick={() => setMenuIsVisible(true)} className='mobile'/>
            
         </header>        
